@@ -1,6 +1,13 @@
   A major barrier to entry for point cloud registration is merely obtaining and displaying the point clouds obtained from a   Kinect. I have created and written C++ programs using the pointclouds library to obtain, compare, and display point clouds. I am currently using the ICP algorithm to compare two different point clouds. The program uses ICP to compare two different point clouds, and creates a window displaying the input point cloud overlayed with the output point cloud.
 
 Note: Application tested to run on Ubuntu 14.04 64x. 
+
+Drivers:
+    If you do not have the necessary drivers for the Kinect, follow the below directions to download and install the correct drivers for Ubuntu 14.04 64x .
+    1. Download the drivers from this linK: https://drive.google.com/folderview?id=0B1SpESWn0k3FM2Vfb3hrSHNtYTQ&usp=sharing
+    2. Open the directory you have just now downloaded.
+    3. There are two directories in the directory you have downloaded. Each of these folders has an install.sh program which will install the necessary drivers. Run the install.sh programs inside both of the directories inside the folder you have just downloaded to install the necessary Kinect drivers or Ubuntu 14.04 64x.
+
 Follow the below instructions to build and run my application:
 
 Build the files
